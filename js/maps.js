@@ -3,7 +3,7 @@ $(document).ready(function(){/* google maps ------------------------------------
 
     function initialize() {
 
-        /* position Amsterdam */
+        /* position Weda */
         var latlng = new google.maps.LatLng(59.204904, 17.643558);
 
         var mapOptions = {

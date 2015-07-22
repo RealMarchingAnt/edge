@@ -5,7 +5,22 @@
 body {
     padding-bottom: 40px;
     padding-top: 70px;
-    color: #5a5a5a;
+    color: #555;
+    background-color: #FBDFC6;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #ef8223;
+}
+
+a:hover {
+    color: #F8C9A0;
 }
 
 
@@ -29,15 +44,70 @@ body {
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-    background-color: #ffffff;
+    background-color: #000;
+    border-color: #ef8223;
+    color: #ef8223;
 }
 
-/*.navbar-wrapper .navbar .navbar-nav li a {
-    color: #fff;
-}*/
+.navbar-wrapper .navbar .navbar-nav .open a {
+    background-color: #000;
+    border-color: #ef8223;
+    color: #ef8223;
+}
+
+.navbar-wrapper .navbar .navbar-nav .dropdown .dropdown-menu, .navbar-toggle {
+    background-color: #000;
+    border-color: #ef8223;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #F8C9A0;
+}
+
+.navbar-wrapper .navbar .navbar-nav .dropdown .dropdown-menu li a {
+    color: #ef8223;
+}
+
+.navbar-wrapper .navbar .navbar-nav .dropdown .dropdown-menu li a:hover {
+    color: #F8C9A0;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ef8223;
+    color: #ef8223;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ef8223;
+}
+
+.navbar-wrapper .navbar .navbar-nav li a {
+    color: #ef8223;
+}
+
+.navbar-wrapper .navbar .navbar-nav .active a {
+    color: #F8C9A0;
+    background-color: #000;
+}
+
+.navbar-wrapper .navbar .navbar-nav a:hover {
+    color: #F8C9A0;
+}
 
 .navbar-wrapper-bottom .navbar{
     padding-top: 10px;
+}
+
+.btn-default {
+    background-color: #EF8223;
+    color: #333;
+    border-color: #333;
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #F8C9A0;
+    border-color: #333;
 }
 
 
@@ -46,8 +116,8 @@ body {
 
 /* Carousel base class */
 .carousel {
-    height: 500px;
-    margin-bottom: 60px;
+    height: 300px;
+    /*margin-bottom: 60px;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -55,22 +125,35 @@ body {
 }
 
 .carousel-caption-dark {
-    color: #5A5A5A;
-    background: rgba(255, 255, 255, 0.7);
+    color: #ef8223;
+    /*background: rgba(0, 0, 0, 0.7);*/
     border-radius: 4px;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 500px;
+    height: 300px;
     background-color: #777;
+    border-radius: 8px;
+
 }
+
+.carousel-inner {
+    border: 1px solid #EF8223;
+    border-radius: 8px;
+}
+
+.carousel-control {
+    border-radius: 8px;
+}
+
 .carousel-inner > .item > img {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 500px;
+    height: 300px;
+    border-radius: 8px;
 }
 
 
@@ -95,7 +178,8 @@ body {
 ------------------------- */
 
 .featurette-divider {
-    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    margin: 40px 0; /* Space out the Bootstrap <hr> more */
+    border-color: #ef8223;
 }
 
 /* Thin out the marketing headings */
@@ -105,16 +189,51 @@ body {
     letter-spacing: -1px;
 }
 
+.supplier-row {
+    margin-top: 15px;
+}
+
 /* Map */
 #map-canvas {
     width: 100%;
-    height: 250px;
+    height: 400px;
+    border-radius: 4px;
 }
 
 .contactinfo {
     text-align: center;
 }
 
+/* Icon hovers */
+.fa-facebook-square:hover {
+    color: #2c4083;
+    cursor: pointer;
+}
+
+.fa-twitter-square:hover {
+    color: #3f91e4;
+    cursor: pointer;
+}
+
+.fa-envelope-square:hover {
+    color: #ef8223;
+    cursor: pointer;
+}
+/* Icon hovers */
+
+.navbar-brand {
+    padding: 0 0 0 15px;
+    color: #525252;
+}
+
+.navbar-brand > img {
+    display: block;
+    height: 50px;
+}
+
+.orange-border {
+    border: 1px solid #ef8223;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -139,11 +258,11 @@ body {
     }
 
     /* Bump up size of carousel content */
-    .carousel-caption p {
+    /*.carousel-caption p {
         margin-bottom: 20px;
         font-size: 21px;
         line-height: 1.4;
-    }
+    }*/
 
     .featurette-heading {
         font-size: 50px;
@@ -151,7 +270,7 @@ body {
 }
 
 @media (min-width: 992px) {
-    .featurette-heading {
+    /*.featurette-heading {
         margin-top: 120px;
-    }
+    }*/
 }
