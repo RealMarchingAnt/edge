@@ -27,47 +27,9 @@
 <!-- NAVBAR
 ================================================== -->
 <body>
-<div class="navbar-wrapper">
-    <div class="container">
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img alt="Brand" src="images/edgelogo.jpg"></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html"><i class="fa fa-home"></i> Hem</a></li>
-                        <li><a href="about.html">Om oss</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Affärsområden<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="profilklader.html">Profilkläder</a></li>
-                                <li><a href="yrkesklader.html">Yrkeskläder</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="suppliers.html">Leverantörer</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kontakt<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="contact.html"><i class="fa fa-envelope-o"></i> Kontaktuppgifter</a></li>
-                                <li><a href="medarbetare.html"><i class="fa fa-users"></i> Vi som jobbar här</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
-
-
+<!-- HEADER -->
+<?php include 'header.php'?>
 
 <!-- Carousel
 ================================================== -->
@@ -232,17 +194,7 @@
 
 
     <!-- FOOTER -->
-    <div class="navbar-wrapper navbar-wrapper-bottom">
-        <nav class="navbar navbar-default navbar-fixed-bottom">
-            <div class="container">
-                <p class="pull-right">
-                    <i class="fa fa-facebook-square fa-2x"></i> &nbsp; <i class="fa fa-twitter-square fa-2x"></i> &nbsp; <i class="fa fa-envelope-square fa-2x"></i> &nbsp; Gjord med <i class="fa fa-heart"></i>
-                </p>
-                <p class="pull-right"></p>
-                <p>&copy; 2015 Edge Profil &amp; Yrkeskläder AB</p>
-            </div>
-        </nav>
-    </div>
+    <?php include 'footer.php'?>
 
 </div><!-- /.container -->
 
