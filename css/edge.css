@@ -3,11 +3,13 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
     padding-top: 70px;
-    color: #555;
+    color: #777;
     /*background-color: #FBDFC6;*/
     background-color: #ffffff;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .center-block {
@@ -24,6 +26,30 @@ a:hover {
     color: #F8C9A0;
 }
 
+#footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #222;
+    border-top: 1px solid #777;
+    box-shadow: 0px -1px 10px #222;
+}
+
+#footer .footer-bottom {
+    border-top: 1px solid #ef8223;
+    padding: 20px 0px;
+    margin: 20px 0px 20px -20px;
+}
+
+
+#footer ul.social { margin:0;padding:0; list-style-type: none; }
+
+#footer .social a {
+    color: #777;
+}
+
+#footer .social a:hover {
+    color: #ef8223;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -45,20 +71,21 @@ a:hover {
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-    background-color: #000;
-    border-color: #ef8223;
+    background-color: #222;
+    border-color: #222;
     color: #ef8223;
+    box-shadow: 1px 5px 10px #222;
 }
 
 .navbar-wrapper .navbar .navbar-nav .open a {
-    background-color: #000;
+    background-color: #222;
     border-color: #ef8223;
     color: #ef8223;
 }
 
 .navbar-wrapper .navbar .navbar-nav .dropdown .dropdown-menu, .navbar-toggle {
-    background-color: #000;
-    border-color: #ef8223;
+    background-color: #222;
+    border-color: #222;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -88,11 +115,12 @@ a:hover {
 
 .navbar-wrapper .navbar .navbar-nav .active a {
     color: #F8C9A0;
-    background-color: #000;
+    background-color: #222;
 }
 
 .navbar-wrapper .navbar .navbar-nav a:hover {
     color: #F8C9A0;
+    background-color: #000;
 }
 
 .navbar-wrapper-bottom .navbar{
@@ -208,22 +236,22 @@ a:hover {
     text-align: center;
 }
 
-/* Icon hovers */
-.fa-facebook-square:hover {
-    color: #2c4083;
-    cursor: pointer;
-}
+/*/!* Icon hovers *!/*/
+/*.fa-facebook-square:hover {*/
+    /*color: #2c4083;*/
+    /*cursor: pointer;*/
+/*}*/
 
-.fa-twitter-square:hover {
-    color: #3f91e4;
-    cursor: pointer;
-}
+/*.fa-twitter-square:hover {*/
+    /*color: #3f91e4;*/
+    /*cursor: pointer;*/
+/*}*/
 
-.fa-envelope-square:hover {
-    color: #ef8223;
-    cursor: pointer;
-}
-/* Icon hovers */
+/*.fa-envelope-square:hover {*/
+    /*color: #ef8223;*/
+    /*cursor: pointer;*/
+/*}*/
+/*/!* Icon hovers *!/*/
 
 .navbar-brand {
     padding: 0 0 0 15px;
@@ -238,6 +266,49 @@ a:hover {
 .orange-border {
     border: 1px solid #ef8223;
 }
+
+.border-right-left {
+    border-right: 1px solid #777;
+    border-left: 1px solid #777;
+}
+
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 0.7;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -261,6 +332,10 @@ a:hover {
         /*border-radius: 4px;*/
     }
 
+    .navbar-wrapper .navbar .navbar-nav .dropdown .dropdown-menu, .navbar-toggle {
+        box-shadow: 1px 10px 10px #222;
+    }
+
     /* Bump up size of carousel content */
     /*.carousel-caption p {
         margin-bottom: 20px;
@@ -271,6 +346,7 @@ a:hover {
     .featurette-heading {
         font-size: 50px;
     }
+
 }
 
 @media (min-width: 992px) {

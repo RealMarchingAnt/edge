@@ -18,8 +18,8 @@ echo '
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand visible-xs visible-sm" href="index.php"><img alt="Brand" src="images/edgelogo_small.png"></a>
-                        <a class="navbar-brand visible-md visible-lg" href="index.php"><img alt="Brand" src="images/edgelogo_big.png" style="max-width:390px;"></a>
+                        <a class="navbar-brand visible-xs visible-sm" href="index.php"><img alt="Brand" src="images/edgelogo_grey.png"></a>
+                        <a class="navbar-brand visible-md visible-lg" href="index.php"><img alt="Brand" src="images/edgelogo-full_grey.png" style="max-width:390px;"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
