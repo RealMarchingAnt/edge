@@ -34,15 +34,15 @@
             <h2>Kontakta oss</h2>
             <p class="lead">Välkommen att kontakta oss! Vi hjälper dig gärna. </p>
             <address>
-                <strong>Edge Profil &amp; Yrkeskläder</strong><br>
-                Wedavägen 1<br>
-                171 30, Södertälje<br>
-                <abbr title="Telefon">Telefon:</abbr> (123) 456-7890
+                <strong>Telge Profil &amp; Yrkeskläder</strong><br>
+                Wedavägen 1B<br>
+                152 42, Södertälje<br>
+                Org: 559022-5321
             </address>
 
             <address>
                 <strong>E-post</strong><br>
-                <a href="mailto:edgeprofil@email.se">edgeprofil@email.se</a>
+                <a href="mailto:info@edgeprofil.se">info@edgeprofil.se</a>
             </address>
         </div>
     </div>

@@ -29,7 +29,7 @@
 
     <div class="row featurette">
         <div class="col-md-12">
-            <h2 class="featurette-heading">Yrkeskläder</h2>
+            <h2 class="featurette-heading">Gåvor/Giveaways</h2>
         </div>
     </div>
 
@@ -37,12 +37,11 @@
 
     <div class="row featurette">
         <div class="col-md-6">
-            <h3>När vi pratar om yrkeskläder så är ledorden säkerhet, funktion och kvalité.</h3>
-            <h3>Vi hjälper Era företag att välja rätt yrkeskläder för Er bransch. Hos oss hittar Ni ett brett sortiment av produkter och varumärken</h3>
-            <h3>Genom att använda rätt kläder blir jobbet både enklare, roligare och framför allt säkrare.</h3>
+            <h3>En väl vald gåva är en mycket bra budbärare för att visa din uppskattning mot både affärsrelationer, kunder och mot din personal. Med en gåva stärker du en relation och  ökar chansen att Ni kommer att få flera framgångar ihop.</h3>
+            <h3>Vi hjälper Er hitta rätt gåva som budbärare.</h3>
         </div>
         <div class="col-md-6">
-            <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/carousel/blaklader.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/carousel/vingaofsweden.png" alt="Generic placeholder image">
         </div>
     </div>
 
@@ -50,12 +49,12 @@
 
     <div class="row featurette">
         <div class="col-md-6 col-md-push-6">
-
-            <h3>Vi tittar även här på hur vi kan förädla Era arbetskläder på bästa möjliga sätt!</h3>
+            <h3>En giveaway är en produkt som fyller en funktion och som oftast även omfattas av ett tema tex: säkerhet, omsorg eller miljö. En giveaway riktar sig mot en bredare publik för att sätta erat varumärke och budskap på näthinnan under en längre tid.</h3>
+            <h3>Vi hjälper Er välja ut rätt produkter som giveaway som passar in på Erat tema och de budskap ni vill förmedla.</h3>
             <h3>Sätt ett möte med oss, så tittar vi tillsammans på Era behov!</h3>
         </div>
         <div class="col-md-6 col-md-pull-6">
-            <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/carousel/jobman.png" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/carousel/plastprint.png" alt="Generic placeholder image">
         </div>
     </div>
 

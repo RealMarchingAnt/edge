@@ -30,6 +30,7 @@ echo '
                                 <ul class="dropdown-menu">
                                     <li><a href="profilklader.php">Profilkläder</a></li>
                                     <li><a href="yrkesklader.php">Yrkeskläder</a></li>
+                                    <li><a href="giveaways.php">Gåvor/Giveaways</a></li>
                                 </ul>
                             </li>
                             <li><a href="suppliers.php">Leverantörer</a></li>

@@ -31,7 +31,7 @@ a:hover {
     padding-top: 20px;
     background-color: #222;
     border-top: 1px solid #777;
-    box-shadow: 0px -1px 10px #222;
+    box-shadow: 0px -1px 10px #777;
 }
 
 #footer .footer-bottom {
@@ -49,6 +49,11 @@ a:hover {
 
 #footer .social a:hover {
     color: #ef8223;
+}
+
+.companyName {
+    color: #ef8223;
+    text-transform: uppercase;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -72,9 +77,9 @@ a:hover {
     padding-right: 15px;
     padding-left: 15px;
     background-color: #222;
-    border-color: #222;
+    border-color: #777;
     color: #ef8223;
-    box-shadow: 1px 5px 10px #222;
+    box-shadow: 1px 5px 10px #777;
 }
 
 .navbar-wrapper .navbar .navbar-nav .open a {
@@ -120,7 +125,6 @@ a:hover {
 
 .navbar-wrapper .navbar .navbar-nav a:hover {
     color: #F8C9A0;
-    background-color: #000;
 }
 
 .navbar-wrapper-bottom .navbar{
@@ -151,12 +155,15 @@ a:hover {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     z-index: 10;
+    top: 50%;
+    bottom: 30%;
 }
 
 .carousel-caption-dark {
     color: #ef8223;
     /*background: rgba(0, 0, 0, 0.7);*/
-    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
 }
 
 /* Declare heights because of positioning of img element */
@@ -175,6 +182,7 @@ a:hover {
 .carousel-control {
     border-radius: 8px;
 }
+
 
 .carousel-inner > .item > img {
     position: absolute;
@@ -219,6 +227,8 @@ a:hover {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
+    color: #EF8223;
+    text-align: center;
 }
 
 .supplier-row {
@@ -234,6 +244,7 @@ a:hover {
 
 .contactinfo {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 /*/!* Icon hovers *!/*/
@@ -333,7 +344,7 @@ a:hover {
     }
 
     .navbar-wrapper .navbar .navbar-nav .dropdown .dropdown-menu, .navbar-toggle {
-        box-shadow: 1px 10px 10px #222;
+        box-shadow: 1px 10px 10px #777;
     }
 
     /* Bump up size of carousel content */

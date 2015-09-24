@@ -4,7 +4,7 @@ $(document).ready(function(){/* google maps ------------------------------------
     function initialize() {
 
         /* position Weda */
-        var latlng = new google.maps.LatLng(59.204904, 17.643558);
+        var latlng = new google.maps.LatLng(59.2050246,17.6430644);
 
         var mapOptions = {
             center: latlng,

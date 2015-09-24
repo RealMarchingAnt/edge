@@ -32,12 +32,36 @@
 
 
     <div class="row featurette">
-        <div class="col-md-5">
-            <h2>Profilkläder</h2>
-            <p class="lead">När du möter en person för första gången är en stor del av det intrycket du får grundat på personens klädsel och synliga framtoning. Att använda sig av profilkläder är ett enkelt sätt att ge ett snyggt och enhetligt intryck på arbetet - oavsett om du arbetar inomhus eller utomhus på kontor eller på lager.</p>
+        <div class="col-md-12">
+            <h2 class="featurette-heading">Profilkläder</h2>
         </div>
-        <div class="col-md-7">
-            <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/edgeres2.png" alt="Generic placeholder image">
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+
+        <div class="row featurette">
+            <div class="col-md-6">
+                <h3>Med företagsprofilerade kläder ger Erat företag en tydlig och seriös bild av vilka Ni är och vad Erat företag står för.</h3>
+                <h3>Företagsprofilerade kläder har även andra värden som att stärka Eran interna grupp och tydliggöra företagets visioner och mål.</h3>
+            </div>
+            <div class="col-md-6">
+                <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/carousel/newwave_clique.jpg" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row featurette">
+            <div class="col-md-6 col-md-push-6">
+
+                <h3>Företagsprofilerade kläder finns till allt från de enklaste event över dagen till mässor, representation och kick off´s.</h3>
+                <h3>Sätt ett möte med oss, så tittar vi tillsammans på Era behov!</h3>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/carousel/berkeley.jpg" alt="Generic placeholder image">
+            </div>
         </div>
     </div>
 

@@ -25,68 +25,35 @@
 
 <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-        <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Företagsprofilering</h2>
-            <p>När vi tänker företagsprofilering så tänker vi på starka varumärken. Vi ser en tydlig skillnad mellan våra kunder som verkligen bryr sig om hur personalen går klädd, vilka give away som köps samt hur den röda tråden genomsyrar hela företaget. Vi berättar gärna mer och visar några riktigt starka exempel.</p>
-            <p><a class="btn btn-default" href="#" role="button">Läs mer &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Profilkläder</h2>
-            <p>När du möter en person för första gången är en stor del av det intrycket du får grundat på personens klädsel och synliga framtoning. Att använda sig av profilkläder är ett enkelt sätt att ge ett snyggt och enhetligt intryck på arbetet  - oavsett om du arbetar inomhus eller utomhus på kontor eller på lager.</p>
-            <p><a class="btn btn-default" href="#" role="button">Läs mer &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Yrkeskläder</h2>
-            <p>Att personalen har de rätta arbetskläderna som skyddar dem i alla väder, oavsett yrke och på alla typer av arbetsplatser ser vi som vår främsta uppgift. Att personalen även ser välvårdad ut och att de själva känner en stolthet i både sig själva och i sitt företag ser vi som en bonus men precis lika viktig.</p>
-            <p><a class="btn btn-default" href="#" role="button">Läs mer &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
     <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-12">
+            <h2 class="featurette-heading">Om oss</h2>
         </div>
     </div>
 
     <hr class="featurette-divider">
 
     <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-6">
+            <h3>Vi på <span class="companyName">Edge</span> har som mål är att vara de självklara valet för alla företag i Södertälje med omnejd.</h3>
+            <h3>Vår ambition är hög servicenivå, flexibilitet och att alltid ha nöjda kunder.</h3>
         </div>
-        <div class="col-md-5 col-md-pull-7">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-6">
+            <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/handshake.jpg" alt="Generic placeholder image">
         </div>
     </div>
 
     <hr class="featurette-divider">
 
     <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-6 col-md-push-6">
+            <h3>Vi jobbar bara med kvalitets leverantörer som vi har lång relation med.</h3>
+            <h3>Vårat leverantörsnätverk är både nationellt och internationellt för att vi i varje fall ska hitta den bästa och mest ekonomiska lösningen på varje jobb som vi genomför.</h3>
         </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-6 col-md-pull-6">
+            <img class="featurette-image img-responsive img-rounded center-block orange-border" src="images/network.jpg" alt="Generic placeholder image">
         </div>
     </div>
-
-    <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
 

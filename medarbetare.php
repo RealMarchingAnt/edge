@@ -32,7 +32,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <h2 class="featurette-heading">Vi som jobbar på <span class="text-muted">Edge</span></h2>
+            <h2 class="featurette-heading">Vi som jobbar på <span class="companyName">Edge</span></h2>
        </div>
     </div>
 
@@ -40,42 +40,29 @@
 
     <!-- Medarbetare -->
     <div class="row text-center">
-        <div class="col-sm-4">
+        <div class="col-sm-6">
             <img class="img-rounded orange-border center-block" src="images/medarbetare/lagerqvist.jpg" alt="Johan Lagerqvist" width="137.5" height="183">
             <h2>Johan Lagerqvist</h2>
-            <h3>Försäljning</h3>
             <address>
-                <abbr title="Telefon">Telefon:</abbr> (123) 456-7890
+                <abbr title="Telefon">Telefon:</abbr> 070-206 75 95
             </address>
             <address>
                 <strong>E-post</strong><br>
                 <a href="mailto:johan@edgeprofil.se">johan@edgeprofil.se</a>
             </address>
         </div><!-- /.col-lg-3 -->
-        <div class="col-sm-4">
+        <div class="col-sm-6">
             <img class="img-rounded orange-border center-block" src="images/medarbetare/haag.jpg" alt="Lotta Haag" width="137.5" height="183">
             <h2>Lotta Haag</h2>
-            <h3>Inköp</h3>
             <address>
-                <abbr title="Telefon">Telefon:</abbr> (123) 456-7890
+                <abbr title="Telefon">Telefon:</abbr> 073-567 03 70
             </address>
             <address>
                 <strong>E-post</strong><br>
                 <a href="mailto:lotta@edgeprofil.se">lotta@edgeprofil.se</a>
             </address>
         </div><!-- /.col-lg-3 -->
-        <div class="col-sm-4">
-            <img class="img-rounded orange-border center-block" src="images/medarbetare/norris.jpg" alt="Chuck Norris" width="137.5" height="183">
-            <h2>Chuck Norris</h2>
-            <h3>Asskicker</h3>
-            <address>
-                <abbr title="Telefon">Telefon:</abbr> (123) 456-7890
-            </address>
-            <address>
-                <strong>E-post</strong><br>
-                <a href="mailto:chuck@edgeprofil.se">chuck@edgeprofil.se</a>
-            </address>
-        </div><!-- /.col-lg-3 -->
+
     </div><!-- /.row -->
 
 
