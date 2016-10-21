@@ -132,17 +132,40 @@ a:hover {
 }
 
 .btn-default {
-    background-color: #EF8223;
-    color: #333;
-    border-color: #333;
+    /*background-color: #EF8223;*/
+    /*color: #333;*/
+    color: #EF8223;
+    /*border-color: #333;*/
+    background: rgba(44,44,44,0.70);
+    border: 1px solid #EF8223;
+    border-radius: 4px 0px 4px 0px;
+    border-top: 0;
+    border-left: 0;
 }
 
 .btn-default:hover {
-    color: #333;
-    background-color: #F8C9A0;
-    border-color: #333;
+    color: #F8C9A0;
+    /*background-color: #F8C9A0;*/
+    background: rgba(44,44,44,0.70);
+    border-color: #EF8223;
 }
 
+.pickgradient {
+    display:inline-block;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 50%, rgba(0,0,0,0.70) 100%);
+/*    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); *//* FF3.6+ *//*
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); *//* Chrome,Safari4+ *//*
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); *//* Chrome10+,Safari5.1+ *//*
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); *//* Opera 11.10+ *//*
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); *//* IE10+ *//*
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); *//* W3C *//*
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); *//* IE6-9 */
+}
+
+img{
+    z-index:-1;
+    display:block;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -155,8 +178,12 @@ a:hover {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     z-index: 10;
-    top: 50%;
-    bottom: 30%;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    text-align: left;
+    right: 0;
+    left: 0;
 }
 
 .carousel-caption-dark {
@@ -318,6 +345,12 @@ a:hover {
 }
 .scroll-top-wrapper i.fa {
     line-height: inherit;
+}
+
+.fb-stats {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 

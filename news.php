@@ -19,6 +19,16 @@
 
 <!-- HEADER -->
 <?php include 'header.php'?>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/edge.js"></script>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=815732011844412";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Carousel
 ================================================== -->
@@ -35,33 +45,77 @@
             <h2 class="featurette-heading">Aktuellt</span></h2>
         </div>
     </div>
+    <div class="col-sm-12">
 
-    <hr class="featurette-divider">
+        <p><a href="assets/EDGE%20Topplista%20jul%202016.pptx">Klicka här för att ladda ned vår topplista för julen 2016&nbsp;<i class="fa fa-arrow-down"></i></a> </p>
 
-
-    <!-- En nyhet -->
-    <div class="row">
-        <div class="col-sm-2">
-            <h5><span class="text-muted">2015-09-25</span></h5>
-        </div>
-        <div class="col-sm-10">
-            <h3>Stor invigning</h3>
-            <h4>Vi har öppet hela dagen och bjuder på en lättare lunch mellan 11,00 – 14,00. Meddela oss gärna, så vi vet hur många som kommer till lunch! Meddela till <a href="mailto:lotta@edgeprofil.se">lotta@edgeprofil.se</a></h4>
-        </div>
     </div>
+    <?php
+    date_default_timezone_set('Europe/Stockholm');
+    $page_id = '1628962010690920';
+    $access_token = '1125859590757838|c3332ffde36d99a9a4411703a3a1a928';
+    //Get the JSON
+    $json_object = @file_get_contents('https://graph.facebook.com/' . $page_id .
+        '/posts?fields=created_time,message,full_picture,likes.limit(0).summary(true),shares,comments.limit(0).summary(true)&limit=20&access_token=' . $access_token);
+    //Interpret data
+    $fbdata = json_decode($json_object);
 
-    <!-- En till nyhet -->
-    <div class="row">
-        <div class="col-sm-2">
-            <h5><span class="text-muted">2015-09-17</span></h5>
-        </div>
-        <div class="col-sm-10">
-            <h3>Öppningsdags</h3>
-            <h4>Vi slår upp våra dörrar och önskar alla varmt välkomna.</h4>
-        </div>
-    </div>
+    foreach ($fbdata->data as $post )
+    {
+        $date = date("Y-m-d", strtotime($post->created_time));
+        $img = $post->full_picture;
+        $link = "https://www.facebook.com/" . $post->id;
+        $message = $post->message;
+        $likes = $post->likes->summary->total_count;
+        $shares = $post->shares->count;
+        $comments = $post->comments->summary->total_count;
 
+        if ($likes == "")
+            $likes = 0;
 
+        if ($shares == "")
+            $shares = 0;
+
+        if ($comments == "")
+            $comments = 0;
+
+        if ($img != "") {
+            $posts .= '<hr class="featurette-divider">';
+            $posts .= '<div class="row">';
+            $posts .= '<div class="col-sm-2"><h4><span class="text-muted">' . $date . '</span></h4></div>';
+            $posts .= '<div class="col-sm-6">
+                   <img class="img-rounded orange-border center-block" width="320" src="' . $img . '"/>
+                   <div style="text-align:center;">
+                   <h4>
+                        <span class="fb-stats"><i class="fa fa-thumbs-o-up"></i> ' . $likes . '</span>
+                        <span class="fb-stats"><i class="fa fa-share"></i> ' . $shares . '</span>
+                        <span class="fb-stats"><i class="fa fa-comment-o"></i> ' . $comments . '</span>
+                   </h4>
+                   </div>
+                   <div style="text-align:center;"><a href="' . $link . '" target="_blank">Läs, kommentera, och gilla på Facebook</a></div>
+                   </div>';
+            $posts .= '<div class="col-sm-4"><h4>' . $message . '</h4></div>';
+        } else {
+            $posts .= '<hr class="featurette-divider">';
+            $posts .= '<div class="row">';
+            $posts .= '<div class="col-sm-2"><h4><span class="text-muted">' . $date . '</span></h4></div>';
+            $posts .= '<div class="col-sm-10"><h4>' . $message . '</h4>
+                   <div style="text-align:center;">
+                   <h4>
+                        <span class="fb-stats"><i class="fa fa-thumbs-o-up"></i> ' . $likes . '</span>
+                        <span class="fb-stats"><i class="fa fa-share"></i> ' . $shares . '</span>
+                        <span class="fb-stats"><i class="fa fa-comment-o"></i> ' . $comments . '</span>
+                   </h4>
+                   </div>
+                   <div style="text-align:center;"><a href="' . $link . '" target="_blank">Läs, kommentera, och gilla på Facebook</a></div>
+                   </div>';
+        }
+
+        $posts .= '</div>';
+    }
+    //Display the posts
+    echo $posts;
+    ?>
 
 </div><!-- /.container -->
 
@@ -71,8 +125,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/edge.js"></script>
+
+
 </body>
 </html>

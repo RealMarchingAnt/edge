@@ -33,19 +33,21 @@ echo '
       <div class="col-sm-3">
         <ul class="social">
           <li><a href="http://www.facebook.com/EDGE-ProfilYrkeskläder-1628962010690920" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>&nbsp;Edge på Facebook</li>
-          <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a>&nbsp;Edge på Instagram</li>
-          <li><a href="mailto:edgeprofil@email.se"><i class="fa fa-envelope-square fa-2x"></i></a>&nbsp;Maila oss</li>
+          <li><a href="http://i.instagram.com/edgeprofil/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>&nbsp;Edge på Instagram</li>
+          <li><a href="mailto:info@edgeprofil.se"><i class="fa fa-envelope-square fa-2x"></i></a>&nbsp;Maila oss</li>
         </ul>
         <br>
         <address>
             <strong>Öppettider</strong><br>
-            Måndag till Fredag 07:00 - 17:00
+            Måndag till Fredag 07:00 - 17:00 <br>
+            Dag före röd dag stänger vi 15:00 <br>
+            24/3 stänger vi 14:00, 25/3 och 28/3 stängt
         </address>
       </div>
     </div>
       <div class="col-md-12">
         <div class="pull-right">
-          &copy; 2015 Telge Profil &amp; Yrkeskläder AB
+          &copy; 2016 Telge Profil &amp; Yrkeskläder AB
         </div>
       </div>
   </div>
