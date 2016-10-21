@@ -65,7 +65,7 @@
                     <div>
                         <img u="image" src2="images/edgelogo_text.png" alt="Företagsprofilering">
                     </div>
-                    <div>
+                    <div class="pickgradient">
                         <img u="image" src2="images/carousel/blaklader.png" />
                         <div class="container">
                             <div class="carousel-caption">
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="pickgradient">
                         <img u="image" src2="images/carousel/newwave.png" />
                         <div class="container">
                             <div class="carousel-caption">
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="pickgradient">
                         <img u="image" src2="images/carousel/kostaboda.png" />
                         <div class="container">
                             <div class="carousel-caption">
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="pickgradient">
                         <img u="image" src2="images/carousel/plastprint2.png" />
                         <div class="container">
                             <div class="carousel-caption">
@@ -102,33 +102,35 @@
                 <!--#region Bullet Navigator Skin Begin -->
                 <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
                 <style>
-                    /* jssor slider bullet navigator skin 05 css */
+                    /* jssor slider bullet navigator skin 01 css */
                     /*
-                    .jssorb05 div           (normal)
-                    .jssorb05 div:hover     (normal mouseover)
-                    .jssorb05 .av           (active)
-                    .jssorb05 .av:hover     (active mouseover)
-                    .jssorb05 .dn           (mousedown)
+                    .jssorb01 div           (normal)
+                    .jssorb01 div:hover     (normal mouseover)
+                    .jssorb01 .av           (active)
+                    .jssorb01 .av:hover     (active mouseover)
+                    .jssorb01 .dn           (mousedown)
                     */
-                    .jssorb05 {
+                    .jssorb01 {
                         position: absolute;
                     }
-                    .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                    .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
                         position: absolute;
                         /* size of bullet elment */
-                        width: 16px;
-                        height: 16px;
-                        background: url(images/jsslider/b21.png) no-repeat;
+                        width: 12px;
+                        height: 12px;
+                        filter: alpha(opacity=70);
+                        opacity: .7;
                         overflow: hidden;
                         cursor: pointer;
+                        border: #000 1px solid;
                     }
-                    .jssorb05 div { background-position: -7px -7px; }
-                    .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-                    .jssorb05 .av { background-position: -67px -7px; }
-                    .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+                    .jssorb01 div { background-color: gray; }
+                    .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+                    .jssorb01 .av { background-color: #fff; }
+                    .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
                 </style>
                 <!-- bullet navigator container -->
-                <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
+                <div u="navigator" class="jssorb01" style="bottom: 16px; right: 10px;">
                     <!-- bullet navigator item prototype -->
                     <div u="prototype"></div>
                 </div>
@@ -137,38 +139,38 @@
                 <!--#region Arrow Navigator Skin Begin -->
                 <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
                 <style>
-                    /* jssor slider arrow navigator skin 11 css */
+                    /* jssor slider arrow navigator skin 19 css */
                     /*
-                    .jssora11l                  (normal)
-                    .jssora11r                  (normal)
-                    .jssora11l:hover            (normal mouseover)
-                    .jssora11r:hover            (normal mouseover)
-                    .jssora11l.jssora11ldn      (mousedown)
-                    .jssora11r.jssora11rdn      (mousedown)
+                    .jssora19l                  (normal)
+                    .jssora19r                  (normal)
+                    .jssora19l:hover            (normal mouseover)
+                    .jssora19r:hover            (normal mouseover)
+                    .jssora19l.jssora19ldn      (mousedown)
+                    .jssora19r.jssora19rdn      (mousedown)
                     */
-                    .jssora11l, .jssora11r {
+                    .jssora19l, .jssora19r {
                         display: block;
                         position: absolute;
                         /* size of arrow element */
-                        width: 37px;
-                        height: 37px;
+                        width: 50px;
+                        height: 50px;
                         cursor: pointer;
-                        background: url(images/jsslider/a11.png) no-repeat;
+                        background: url(images/jsslider/a21.png) no-repeat;
                         overflow: hidden;
                     }
-                    .jssora11l { background-position: -11px -41px; }
-                    .jssora11r { background-position: -71px -41px; }
-                    .jssora11l:hover { background-position: -131px -41px; }
-                    .jssora11r:hover { background-position: -191px -41px; }
-                    .jssora11l.jssora11ldn { background-position: -251px -41px; }
-                    .jssora11r.jssora11rdn { background-position: -311px -41px; }
+                    .jssora19l { background-position: -5px -35px; }
+                    .jssora19r { background-position: -65px -35px; }
+                    .jssora19l:hover { background-position: -125px -35px; }
+                    .jssora19r:hover { background-position: -185px -35px; }
+                    .jssora19l.jssora19ldn { background-position: -245px -35px; }
+                    .jssora19r.jssora19rdn { background-position: -305px -35px; }
                 </style>
                 <!-- Arrow Left -->
-            <span u="arrowleft" class="jssora11l" style="top: 123px; left: 8px;">
-            </span>
+        <span u="arrowleft" class="jssora19l" style="top: 123px; left: 8px;">
+        </span>
                 <!-- Arrow Right -->
-            <span u="arrowright" class="jssora11r" style="top: 123px; right: 8px;">
-            </span>
+        <span u="arrowright" class="jssora19r" style="top: 123px; right: 8px;">
+        </span>
                 <!--#endregion Arrow Navigator Skin End -->
                 <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
             </div>
