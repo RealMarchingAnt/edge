@@ -47,7 +47,7 @@
     </div>
     <div class="col-sm-12">
 
-        <p><a href="assets/EDGE%20Topplista%20jul%202016.pptx">Klicka här för att ladda ned vår topplista för julen 2016&nbsp;<i class="fa fa-arrow-down"></i></a> </p>
+        <p><a href="assets/Presentreklam_Spring_2017.pdf">Klicka här för att ladda ned vår presentreklam för våren 2017&nbsp;<i class="fa fa-arrow-down"></i></a> </p>
 
     </div>
     <?php
